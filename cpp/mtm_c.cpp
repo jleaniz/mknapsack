@@ -51,7 +51,7 @@ std::tuple<int,std::vector<int>> SolveSingleKnapsack(std::vector<int> profits, s
 
 	// Run algorithm
 	int i, k;
-	std::vector<int> K((n+1)*(c+1));
+	std::vector<int> K((n+1)*(c+1))*100;
 
 	// Build DP table
 	for (i = 0; i <= n; i++) {
